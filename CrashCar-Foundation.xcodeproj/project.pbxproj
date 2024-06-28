@@ -13,6 +13,12 @@
 		858AB2372C2D593300796D86 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 858AB2362C2D593300796D86 /* Base */; };
 		858AB2392C2D593400796D86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 858AB2382C2D593400796D86 /* Assets.xcassets */; };
 		858AB23C2C2D593400796D86 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 858AB23B2C2D593400796D86 /* Base */; };
+		858AB2442C2D5A1F00796D86 /* ARCADECLASSIC.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 858AB2432C2D5A1F00796D86 /* ARCADECLASSIC.TTF */; };
+		85AC6C372C2D603E001C2B9C /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 85AC6C362C2D603E001C2B9C /* GameScene.sks */; };
+		85AC6C392C2D61C7001C2B9C /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AC6C382C2D61C7001C2B9C /* GameViewController.swift */; };
+		85AC6C3B2C2D6D6F001C2B9C /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AC6C3A2C2D6D6F001C2B9C /* GameScene.swift */; };
+		85AC6C3D2C2EA733001C2B9C /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AC6C3C2C2EA733001C2B9C /* GameOverScene.swift */; };
+		85AC6C3F2C2EAEFF001C2B9C /* GameOverScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 85AC6C3E2C2EAEFF001C2B9C /* GameOverScene.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		858AB2382C2D593400796D86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		858AB23B2C2D593400796D86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		858AB23D2C2D593400796D86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		858AB2432C2D5A1F00796D86 /* ARCADECLASSIC.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = ARCADECLASSIC.TTF; sourceTree = "<group>"; };
+		85AC6C362C2D603E001C2B9C /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		85AC6C382C2D61C7001C2B9C /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		85AC6C3A2C2D6D6F001C2B9C /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		85AC6C3C2C2EA733001C2B9C /* GameOverScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+		85AC6C3E2C2EAEFF001C2B9C /* GameOverScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameOverScene.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +70,15 @@
 			children = (
 				858AB22F2C2D593300796D86 /* AppDelegate.swift */,
 				858AB2312C2D593300796D86 /* SceneDelegate.swift */,
+				85AC6C3A2C2D6D6F001C2B9C /* GameScene.swift */,
 				858AB2332C2D593300796D86 /* ViewController.swift */,
 				858AB2352C2D593300796D86 /* Main.storyboard */,
+				85AC6C382C2D61C7001C2B9C /* GameViewController.swift */,
+				85AC6C362C2D603E001C2B9C /* GameScene.sks */,
+				85AC6C3E2C2EAEFF001C2B9C /* GameOverScene.sks */,
+				85AC6C3C2C2EA733001C2B9C /* GameOverScene.swift */,
 				858AB2382C2D593400796D86 /* Assets.xcassets */,
+				858AB2432C2D5A1F00796D86 /* ARCADECLASSIC.TTF */,
 				858AB23A2C2D593400796D86 /* LaunchScreen.storyboard */,
 				858AB23D2C2D593400796D86 /* Info.plist */,
 			);
@@ -126,8 +144,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				858AB2392C2D593400796D86 /* Assets.xcassets in Resources */,
+				85AC6C372C2D603E001C2B9C /* GameScene.sks in Resources */,
 				858AB23C2C2D593400796D86 /* Base in Resources */,
 				858AB2372C2D593300796D86 /* Base in Resources */,
+				85AC6C3F2C2EAEFF001C2B9C /* GameOverScene.sks in Resources */,
+				858AB2442C2D5A1F00796D86 /* ARCADECLASSIC.TTF in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +159,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85AC6C3B2C2D6D6F001C2B9C /* GameScene.swift in Sources */,
+				85AC6C392C2D61C7001C2B9C /* GameViewController.swift in Sources */,
 				858AB2342C2D593300796D86 /* ViewController.swift in Sources */,
 				858AB2302C2D593300796D86 /* AppDelegate.swift in Sources */,
+				85AC6C3D2C2EA733001C2B9C /* GameOverScene.swift in Sources */,
 				858AB2322C2D593300796D86 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,6 +319,7 @@
 				DEVELOPMENT_TEAM = H8J7M9Q2J3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "CrashCar-Foundation/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -323,6 +348,7 @@
 				DEVELOPMENT_TEAM = H8J7M9Q2J3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "CrashCar-Foundation/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
