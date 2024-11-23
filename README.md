@@ -1,5 +1,14 @@
 # CrashCar Game Application Development on the iOS Platform
 
+### <summary><strong>Tools:</strong></summary>
+<p>
+    <img src="https://img.shields.io/badge/Language-Swift-orange?logo=swift&logoColor=white" />
+    <img src="https://img.shields.io/badge/Framework-SpriteKit-lightblue?logo=apple&logoColor=white" />
+    <img src="https://img.shields.io/badge/Framework-UIKit-lightgray?logo=apple&logoColor=white" />
+    <img src="https://img.shields.io/badge/Platform-iOS-lightgrey?logo=apple&logoColor=white" />
+    <img src="https://img.shields.io/badge/IDE-Xcode-147EFB?logo=xcode&logoColor=white" />
+</p>
+
 ## Project Description
 
 This project details the development of the CrashCar game application on the iOS platform. The game is designed to provide an exciting and immersive experience for users by combining engaging gameplay mechanics with high-quality graphics and sound effects.
