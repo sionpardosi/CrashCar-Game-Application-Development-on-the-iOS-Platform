@@ -1,4 +1,4 @@
-# CrashCar Game Application Development on the iOS Platform
+# CrashCar Game Application Development on the iOS Platform.
 
 ### <summary><strong>Tools:</strong></summary>
 <p>
